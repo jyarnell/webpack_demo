@@ -1,0 +1,24 @@
+{
+  "name": "webpack_demo",
+  "version": "1.0.0",
+  "description": "Demo",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bash ./scripts/dev_server.sh",
+    "build": "bash ./scripts/build.sh"
+  },
+  "author": "James Yarnell",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "express": "^4.17.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
